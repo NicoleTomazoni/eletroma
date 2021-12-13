@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Auge - Eletroma</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+</head>
+
+<body>
+    <!-- TUDO CERTO HEADER -->
+    <header>
+        <!-- logo -->
+        <div class="logo">
+            <img class="" src="img/auge.png" alt="">
+        </div>
+        <!-- menu -->
+        <div class="menu">
+            <ul>
+                <li id="home"><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Store</a></li>
+                <li id="contact"><a href="#">Contact</a></li>
+            </ul>
+        </div>
+    </header>
+    <main>
+        <!-- banner inicial -->
+        <!-- TUDO CERTOOOOO -->
+        <section class="eletroma row">
+            <div class="texto-banner col-6">
+                <h2><strong>Eletroma</strong></h2>
+                <h4>A única <span>capinha de celular</span> do mercado <br>capaz de ajudar vocêa ter mais disposição,
+                    <br> atenção e ser mais
+                    <span>produtivo!</span>
+                </h4>
+            </div>
+            <div class="imagem col-5">
+                <img src="img/capinhaIphone.png" alt="">
+            </div>
+        </section>
+        <!-- contagem regressiva PRONTOOOOO-->
+        <section class="contagem">
+            <h1 class="text-center"><strong>FALTAM</strong></h1>
+            <!-- CONTAGEM -->
+            <!-- Display the countdown timer in an element -->
+            <p id="demo"></p>
+
+            <script class="count">
+                // Set the date we're counting down to
+                var countDownDate = new Date("Dec 17, 2021 19:45:00").getTime();
+
+                // Update the count down every 1 second
+                var x = setInterval(function () {
+
+                    // Get today's date and time
+                    var now = new Date().getTime();
+
+                    // Find the distance between now and the count down date
+                    var distance = countDownDate - now;
+
+                    // Time calculations for days, hours, minutes and seconds
+                    var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+                    var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+                    var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+                    var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+                    // Display the result in the element with id="demo"
+                    document.getElementById("demo").innerHTML = days + " days " + hours + " hours "
+                        + minutes + " min " + seconds + "s ";
+
+                    // If the count down is finished, write some text
+                    if (distance < 0) {
+                        clearInterval(x);
+                        document.getElementById("demo").innerHTML = "EXPIRED";
+                    }
+                }, 1000);
+            </script>
+            <script src="app.js"></script>
+            <h4 class="text-center lancamento">Para o Lançamento do Eletroma!</h4>
+
+        </section>
+        <!-- depoimentos  FINALIZADO -->
+        <section class="depoimento row">
+            <h3>DEPOIMENTOS</h3>
+            <div class="Zahin col-3">
+                <p class="text-center">
+                    <img src="img/zahir.png" alt="">
+                </p>
+                <h5>Zahir Nama, 25 anos</h5>
+                <p>“Desde que comecei a usar o
+                    produto minha vida mudou
+                    completamente! Durmo menos
+                    horas durante a semana, mas
+                    consigo ter momentos de lazer
+                    com meus amigos, o que não
+                    acontecia antes, por eu ser muito
+                    ocupado.”
+                </p>
+            </div>
+            <div class="Maíra col-3">
+                <p class="text-center">
+                    <img src="img/maira.png" alt="">
+                </p>
+
+                <h5>Maíra Cardoso, 35 anos</h5>
+                <p>“Por ser CEO de uma grande
+                    empresa, eu não tinha tempo
+                    de qualidade com meus filhos,
+                    mas o produto mudou isso! Uso
+                    há um mês e recomendo para
+                    todos os meus amigos, até meu
+                    médico me recomendou, um produto
+                    revolucionário e que é muito útil.”
+                </p>
+            </div>
+            <div class="Bruce col-3">
+                <p class="text-center">
+                    <img src="img/bruce.png" alt="">
+                </p>
+                <h5>Bruce Mars, 34 anos</h5>
+                <p>“Quando meus amigos me
+                    falaram sobre o produto eu
+                    achei que fosse mais um daqueles
+                    produtos inúteis para tirar dinheiro
+                    de gente boba, mas me surpreendi!
+                    Eu uso ele duas vezes por dia e
+                    só tem me ajudado”
+                </p>
+            </div>
+        </section>
+        <!-- tecnologia FINALIZADA COM SUCESSO -->
+        <section class="tecnologia row">
+            <h2>TECNOLOGIA INOVADORA</h2>
+            <div class="texto-tec col-6">
+                <h5>O Eletroma utiliza de raios Gama que tem a mais alta frequência e possui uma velocidade superior a
+                    qualquer outra. Ela é ótima para auxiliar em tarefas que demandam alto poder cognitivo,
+                    aprendizagem, memória, capacidade de registrar informações, percepções pessoais e sentidos. Nosso
+                    produto, utilizando da mais avançada tecnologia, usa essa frequência, que em contato com seu dedo
+                    leva ondas eletromagnéticas até seu cérebro, fazendo que seu cansaço seja amenizado, ajudando-o a
+                    trabalhar melhor.</h5>
+            </div>
+            <div class="imagem-tec col-6">
+                <img src="img/capinhaSamsung.png" alt="">
+            </div>
+        </section>
+        <!-- cadastro TUDO CERTISSIMO -->
+        <section class="cadastro row">
+            <div class="texto-cadastro col-6">
+                <h3><strong>Cadastre-se e seja avisado quando e onde comprar o Eletroma!</strong></h3>
+            </div>
+            <div class="formulario col-6">
+                <!-- form nome -->
+                <p>Nome Completo</p>
+                <input name="nome" class="form-control" type="text" aria-label="default input">
+                <!-- form email -->
+                <p>Email</p>
+                <input name="email" class="form-control" type="text" aria-label="default input">
+                <!-- form telefone -->
+                <p>Telefone</p>
+                <input name="telefone" class="form-control mb-3" type="text" aria-label="default input">
+
+            </div>
+        </section>
+        <!-- footer DESISTI -->
+        <footer class="row">
+            <div class="pagamento col-6">
+                <h4>Métodos de Pagamento</h4>
+                <!-- os incons -->
+                <i class="fab fa-cc-visa"></i>
+                <i class="far fa-credit-card"></i>
+                <i class="fab fa-cc-paypal"></i>
+                <i class="fab fa-cc-mastercard"></i>
+            </div>
+            <div class="redes-sociais col-8 text-end ">
+                <!-- os incons -->
+                <i class="fab fa-facebook-f"></i>
+                <i class="fab fa-instagram"></i>
+            </div>
+            <div class="copyrigth">
+                <p class="text-center">Copyright © 2021 AUGE. Todos os direitos reservados.</p>
+            </div>
+        </footer>
+    </main>
+</body>
+
+</html>

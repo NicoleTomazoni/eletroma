@@ -1,0 +1,164 @@
+body{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+/* HEADER AZUL */
+header .logo{
+    background: #003566;
+}
+header img{
+    display: block;
+    margin: auto;
+    height: 120px;
+}
+/* HEADER MENU */
+header .menu{
+    background: #F7FBFD;
+}
+header .menu ul{
+    padding:0px;
+    margin:0px;
+}
+header .menu ul li a{
+    color: #003566;
+    text-decoration: none;
+    display: inline;
+    margin-right: 260px;
+    display: block;
+    float: left;
+    margin-top: 20px;
+}
+header .menu li#home{
+    margin-left: 200px;
+}
+
+/* ELETROMA */
+section.eletroma{
+    margin-top: 70px;
+    margin-bottom: 50px;
+    background: #E7ECEF;
+}
+section.eletroma h4 span{
+    background: #FDD965;
+}
+section.eletroma .texto-banner{
+    margin-left: 100px;
+}
+section.eletroma .texto-banner h2{
+    color: #001D3D;
+    margin-top: 30px ;
+    margin-left: 20px;
+}
+section.eletroma .texto-banner h4{
+    color: #003566;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+section.eletroma img{
+    display: block;
+    height: 350px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    float: left;
+}
+/* CONTAGEM */
+section.contagem{
+    color: rgb(247, 207, 76);
+    margin-bottom: 30px;
+    margin-top: -30px;
+}
+section.contagem h1{
+    font-size: 40px;
+  }
+section.contagem #demo{
+    text-align: center;
+    font-size: 40px ;
+    color: #003566;
+}
+section.contagem .lancamento{
+    font-size: 30px;
+}
+
+/* DEPOIMENTO */
+section.depoimento{
+    background: #001D3D;
+}
+section.depoimento img{
+    border-radius:50%;
+    height:200px;
+}
+section.depoimento h5{
+    color: #F7FBFD;
+}
+section.depoimento h3{
+    color:#ffffff;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+section.depoimento p{
+    color: #ffffff;
+    margin-bottom: 40px;
+}
+section.depoimento .Zahin{
+    margin-left:200px;
+}
+/* TECNOLOGIA */
+section.tecnologia h2{
+    color: #001D3D;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+section.tecnologia h5{
+    color: #003566;
+    background: #F7FBFD;
+    margin-bottom: 50px;
+    margin-left: 200px;
+    margin-top: 30px;
+}
+section.tecnologia img{
+    height:400px;
+    margin-left: 150px;
+    margin-bottom: 10px;
+}
+/* CADASTRO */
+section.cadastro{
+    background: #001D3D;
+}
+section.cadastro .texto-cadastro h3{
+    color:#D7F2FF;
+    margin-left: 200px;
+    text-align: center;
+    margin-top: 70px;
+    margin-right: 50px;
+}
+section.cadastro .formulario{
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+section.cadastro .formulario input{
+    width: 650px;
+}
+section.cadastro p{
+    color: #E7ECEF;
+    margin-bottom: 2px;
+}
+section.cadastro input{
+    background: #E7ECEF;
+}
+/* FOOTER */
+footer{
+    background: #E7ECEF;
+    color: #003566;
+}
+footer .pagamento{
+    margin-left: 200px;
+    margin-top: 20px;
+}
+footer .redes-sociais{
+    margin-left: 400px;
+}
+footer .copyrigth{
+    margin-top: 10px;
+    font-size: 14px;
+}
